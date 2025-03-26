@@ -168,7 +168,6 @@
                 }
             }
 
-            Console.WriteLine("Car added successfully.");
             var results = cars.Where(c => c.Type == type).ToList();
 
             if (results.Any())
